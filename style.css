@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    border: 1px solid black;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    background: #000;
+    padding: 30px 0;
+}
+nav>h1{
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: mediumspringgreen;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+nav>ul>li{
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.85);
+    transition: .2s;
+}
+nav>ul>li:hover{
+    color: #fff;
+}
+nav>.btn-c{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav>.btn-c>button{
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .8;
+    background: transparent;
+    color: #000;
+    transition: .2s;
+    cursor: pointer;
+}
+#signUp{
+    color: mediumspringgreen;
+    border-bottom: 2px solid transparent;
+}
+#signUp:hover{
+    border-bottom: 2px solid mediumspringgreen;
+}
+#login{
+    background: mediumspringgreen;
+    border: 2px solid transparent;
+}
+#login:hover{
+    background: transparent;
+    border: 2px solid mediumspringgreen;
+    color: mediumspringgreen;
+}
+.hero{
+    display: flex;
+    height: 100%;
+    background: #000;
+}
+.hero-box{
+    width: 50%;
+    min-height: 600px;
+    border: 1px solid black; 
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-box>h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+}
+.hero-box>button{
+    padding: 16px 32px;
+    font-size: 26px;
+    border-radius: 50px;
+    background: transparent;
+    color: mediumspringgreen;
+    border: 2px solid mediumspringgreen;
+    cursor: pointer;
+    transition: .2s;
+}
+.hero-box>button:hover{
+    background: mediumspringgreen;
+    color: #000;
+}
+#subtitle{
+    font-size: 55px;
+}
+#pop{
+    color: mediumspringgreen;
+}
+.player-c{
+    width: 100%;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.player-c>img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.player-c>h1{
+    color: #000;
+}
+.player-c>button{
+    font-size: 15px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background: black;
+    color: mediumspringgreen;
+    font-weight: 600;
+    transition: .2s;
+    letter-spacing: 1px;
+}
+.player-c>button:hover{
+    background-color: mediumspringgreen;
+    color: black;
+}
